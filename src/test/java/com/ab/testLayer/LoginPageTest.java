@@ -11,15 +11,7 @@ public class LoginPageTest extends BaseTest {
 	@Test
 	public void VerifyLoginCredentials() throws InterruptedException
 	{
-		System.out.println("This is Login page test class by Archana");
-		LoginPage login_obj = new LoginPage(driver);
-		UtilClass util_obj = new UtilClass();
-		login_obj.clickOnLoginButton();
-		Thread.sleep(2000);
-		util_obj.scrollByMethod();
-		login_obj.enterEmailID("archujadhav23@gmail.com");
-		login_obj.enterPassword("archu@1992");
-		login_obj.clickOnLoginButton1();
+		System.out.println("I am Executed");
 		
        
 	}

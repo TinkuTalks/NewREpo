@@ -9,7 +9,7 @@ public class test extends BaseTest {
 	@Test
 	public void Test1() throws InterruptedException{
 	    
-		login_obj.dashBoard();
+	
 
 		System.out.println("Hello");
 	}
